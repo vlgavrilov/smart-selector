@@ -1,0 +1,46 @@
+.selector-card {
+  margin-right: 60px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  height: 300px;
+
+  &--active {
+    background: white;
+
+  }
+
+  &--disable {
+    background: darkgray;
+
+  }
+}
+
+
+.selector-card__item {
+  background: white;
+  padding: 1px;
+  box-shadow: 0 0 10px rgba(100, 100, 100, 0.5);
+  border: #282c34;
+  width: 200px;
+  height: 45px;
+  margin: 16px;
+
+  &--active {
+    background: white;
+    box-shadow: 0 0 10px rgba(255, 41, 41, 0.5);
+  }
+
+  &--no-select {
+    cursor: pointer;
+    background: white;
+
+    &:hover {
+      margin-left: 20px;
+      box-shadow: 0 0 10px rgba(255, 67, 67, 0.5);
+    }
+  }
+
+  &--disable {
+    background: #d7d5d5;
+  }
+}
